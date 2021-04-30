@@ -1,0 +1,2 @@
+https://github.com/thummalarama/ProjectAutomation.git
+git add GITFILE
