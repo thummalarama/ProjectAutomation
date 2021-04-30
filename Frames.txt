@@ -1,0 +1,3 @@
+List<WebElement>frames= driver.findElements("By.tagName("iframe"));
+driver.switchTo().frame("frame1");
+driver.switchTo().defaultContet();
