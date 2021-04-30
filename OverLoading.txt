@@ -1,0 +1,15 @@
+OverLoading means two or more methods have same name and different arguements. 
+Overloading is example of Compile Time polymorphism.
+
+class MethodOVerLoading{
+ public static void display(int a){
+  System.out.println(a);
+}
+public static void display(int a, int b){
+System.out.println(a + " "+ b);
+}
+public static void main(String[]args){
+display(10);
+display(10,15);
+}
+}
