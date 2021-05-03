@@ -1,0 +1,7 @@
+Find Element is a function which will locate the single WebElement
+It returns the first web element which matches with the locator
+NoSuchElementException is thrown if there are no matching web element
+
+Find Elements is a function which will locate more than one WebElement
+It returns all the webelements which match with locator
+Empty list is returned if there are no matching elements
