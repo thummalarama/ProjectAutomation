@@ -1,0 +1,6 @@
+Exception is an error that happens at the time of execution of a program. 
+No Such Element Exception: This Exception occurs if an element could not be found.
+TimeOut Exception : Thrown when there is not enough time for a command to be completed. 
+No Such Window Exception : This Exception occurs if the window target to be switch does not exist.
+Stale Element Exception: This Selenium exception occurs happens when the web element is detached from the current DOM.
+NoAlertPresentException: This Exception occurs when you switch to no presented alert.
