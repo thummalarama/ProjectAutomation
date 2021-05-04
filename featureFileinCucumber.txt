@@ -1,0 +1,8 @@
+A Feature file is an entry point to the cucumber tests. This is a file where we describe the tests in Descriptive language.
+Feature file can contain a Scenario or can contain many scenarios in a single feature file but it usually contains a list of scenarios.
+Feature file can consists of the following keywords:
+Feature: Name of the feature under test.
+Scenario: What is the test scenario.
+Given: prerequisite before the test steps get executed.
+When: specific condition which should match in order to execute the next step.
+Then: what should happen if the condition mentiond in when is satisfied.
