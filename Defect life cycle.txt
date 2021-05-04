@@ -1,0 +1,24 @@
+What is defect life cycle?
+
+Defect life cycle, also known as Bug Life cycle is the journey of a defect cycle, which a defect goes through during its lifetime. 
+It varies from organization to organization and also from project to project as it is governed by the software testing process and also depends upon the tools used.
+
+Defect Life Cycle States:
+
+New - Potential defect that is raised and yet to be validated.
+
+Assigned - Assigned against a development team to address it but not yet resolved.
+
+Active - The Defect is being addressed by the developer and investigation is under progress. At this stage there are two possible outcomes; viz - Deferred or Rejected.
+
+Test - The Defect is fixed and ready for testing.
+
+Verified - The Defect that is retested and the test has been verified by QA.
+
+Closed - The final state of the defect that can be closed after the QA retesting or can be closed if the defect is duplicate or considered as NOT a defect.
+
+Reopened - When the defect is NOT fixed, QA reopens/reactivates the defect.
+
+Deferred - When a defect cannot be addressed in that particular cycle it is deferred to future release.
+
+Rejected - A defect can be rejected for any of the 3 reasons; viz - duplicate defect, NOT a Defect, Non Reproducible.
