@@ -1,0 +1,7 @@
+What is Singleton architecture?
+
+Singleton is a class that can have only one object(instance of a class) which can be used by all other classes. 
+
+  1. Make constructor as private. It prevent to instantiate the singleton class from outside the class.
+  2. Write a static method that has return type of object of this Singleton Class(Lazy initialization). 
+Difference between normal class and Singleton Class is for normal class we use constructor whereas for Singleton class we use getInstance() method for instantiation.
