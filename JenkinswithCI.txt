@@ -1,0 +1,14 @@
+How continuous integration is achieved in Jenkins?
+
+Continuous integration is a process in which all development work is integrated as early as possible.
+The resulting artifacts are automatically created and tested.
+This process allows to identify errors in an early stage of the project.
+
+First, a developer commits the code to the source code repository. Meanwhile, the Jenkins server checks the repository at regular intervals for changes.
+Soon after a commit occurs, the Jenkins server detects the changes that have occurred in the source code repository. 
+Jenkins will pull those changes and will start preparing a new build.
+If the build fails, then the concerned team will be notified.
+If built is successful, then Jenkins deploys the built in the test server.
+After testing, Jenkins generates a feedback and then notifies the developers about the build and test results.
+It will continue to check the  source code repository for changes made in the source code and the whole process keeps on repeating.
+
