@@ -1,0 +1,38 @@
+Explain oops with showing some examples from Selenium?
+
+Below are the different Java OOPs concepts which are used in Selenium Automation Framework:
+
+1.ABSTRACTION
+In Page Object Model design pattern, we write locators (such as id, name, xpath etc.,) in a Page Class.
+We utilize these locators in tests but we can’t see these locators in the tests. We hide these locators from the tests.
+Abstraction is the methodology of hiding the implementation of internal details and showing the functionality to the user
+
+2. Interface
+WebDriver itself is an Interface. In Selenium WebDriver driver = new ChromeDriver(); 
+we are initializing Chrome browser using Selenium WebDriver. 
+It means we are creating a reference variable (driver) of the interface (WebDriver) and creating an Object.
+Here WebDriver is an Interface and ChromeDriver is a class.
+An interface can have methods and variables just like the class but the methods declared in interface are by default abstract. 
+
+3.Inheritance
+We create a Base Class in the Framework to initialize WebDriver interface, WebDriver waits, Property files, Excels, etc., in the Base Class.
+We extend the Base Class in other classes such as Tests and Utility Class. Extending one class into other class is known as Inheritance.
+To extend the parent class to child class we use "extends" keyword.
+
+4.Polymorphism
+Combination of overloading and overriding is known as ploymorphism.
+
+Method OverLoading:
+A class having multiple methods with same name but different parameters is called Method Overloading
+We use implicit wait in Selenium. Implicit wait is an example of overloading. 
+In Implicit wait we use different time stamps such as SECONDS, MINUTES, HOURS etc.,
+A class having multiple methods with same name but different parameters is called Method Overloading
+
+Method Overriding:
+Overriding occurs when two methods have the same method name and parameters. One of the methods is in the parent class, and the other is in the child class.
+In selenium, get and navigate methods are examples for overriding.
+
+5.ENCAPSULATION
+All the classes in a framework are an example of Encapsulation.
+In POM classes, we declare the data members using @FindBy and initialization of data members will be done using Constructor to utilize those in methods.
+Encapsulation is a mechanism of binding code and data together in a single unit.
