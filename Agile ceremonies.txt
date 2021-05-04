@@ -1,0 +1,11 @@
+What are agile ceremonies?
+
+Agile development happens in Scrum fashion. It involves multiple  ceremonies. 
+Scrum is executed in sprints,which are short iterations of work lasting usually for two weeks.
+A sprint employs five different scrum ceremonies to ensure proper execution: Backlog refinement,sprint planning, daily scrum,sprint review and sprint retrospective. 
+
+Backlog Refinement: In backlog refinement team builds the backlog items(stories,issues,test cases) targetting the work to be delivered in a cycle.
+Sprint Planning : This is where the team meets and decides what they need to complete in the coming sprint from the backlog of items.
+Daily Scrum:  Daily scrum also known as standup  meeting, which is very short meeting – for the team to make sure they’re all on the same page and provide updates or impediments.
+Sprint review: It happens at the end of the sprint to demo the work/features that got delivered and discuss what planned items are still left in the sprint.
+Sprint Retrospective: This is when the team reviews their work, identifying what they did well and what didn’t go as planned, so they can make the next sprint better.
