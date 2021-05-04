@@ -1,0 +1,8 @@
+Page Object Model(POM) is an Object design pattern,popularly used in test automation that creates Object Repository for web elements.
+The advantage of the POM is that it reduces code duplication, easy readability and improves test maintenance.
+In POm, we use page object repository and Page factory. 
+In page object, it organize page objects as per pages in such a way that scripts and page objects can be differentiated easily. 
+It defines locators using "By". We need to initialise every page object individually.
+Page Factory is another way to implement Page object model which is inbuilt in Selenium.
+It defines locators by using @FindBy annotation. 
+Page factory is a class which provides implementation of POM design approach. All Page objects are initialized by using initElements method.
